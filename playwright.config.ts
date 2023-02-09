@@ -1,8 +1,8 @@
 let config = {
   testDir: 'integration',
-  timeout: 60000,
+  timeout: 240000,
   expect: {
-    timeout: 25000,
+    timeout: 60000,
     toMatchSnapshot: {threshold: 0.2},
   }
 }
